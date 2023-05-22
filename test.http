@@ -1,2 +1,13 @@
 
-GET http://localhost:3001/api
+GET http://localhost:3001/wiki/1
+```
+
+### Update a wiki
+POST http://localhost:3001/wiki
+Content-Type: application/json
+
+{
+"_id":1,
+  "title": "My new title",
+  "body": "My new body"
+}
